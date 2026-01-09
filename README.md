@@ -1,16 +1,49 @@
-# React + Vite
+# 🐧 Study Timer App (これで頑張ってみ君)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+学習管理をもっと楽しく、効率的に。
+このアプリは、タスク管理、ポモドーロタイマー、単語帳などを一つにまとめた学習支援ツールです。
 
-Currently, two official plugins are available:
+## 🚀 使い方 (How to Access)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+このアプリは「合言葉」で守られています。
 
-## React Compiler
+1. **アプリを開く**
+   URLにアクセスすると、ロック画面が表示されます。
+2. **合言葉を入力**
+   パスワード欄に **`NoriTama`** と入力して「解除」ボタンを押してください。
+   (大文字・小文字は区別されます)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ 主な機能 (Features)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 1. 📅 今日の目標設定 (Goal Setting)
+- 画面上部の「+ ゴールを追加」から、今の目標（例：「英単語を覚える」「数学の宿題」）を3つまで登録できます。
+- 色を変更して、自分だけのダッシュボードを作りましょう。
+
+### 2. 📝 タスク管理 (Task List)
+- **「すべてのタスク」**タブで、やるべきことを登録します。
+- 期限と総量を設定すれば、**「今日やるべき量」を自動計算**してくれます。
+- 「今日の予定」タブで、その日のノルマをワンクリックで完了できます。
+
+### 3. ⏱️ 集中タイマー (Focus Timer)
+- ポモドーロテクニック（25分集中 + 5分休憩）用のタイマーです。
+- 勉強時間を記録し、集中力を維持しましょう。
+
+### 4. 📚 暗記カード & 辞書 (Flashcard & Dictionary)
+- 覚えたい単語を登録して、ランダムに表示させる「暗記カード」ウィジェット。
+- わからない言葉をその場で検索・保存できる「辞書」ウィジェットも搭載。
+
+### 5. ⚙️ 設定 (Settings)
+- ユーザーメニュー（右上のアイコン）から、自分のアイコン画像を設定できます。
+- アプリ全体のテーマカラーも変更可能です。
+
+---
+
+## 💡 モードについて
+- **Gentle Mode (通常)**: 無理のないペース配分を提案します。
+- **Strict Mode (厳格)**: 期限に間に合わせるために必要な量を厳しく計算します。背景が黒くなり、気合モードになります。
+
+---
+
+*Created by Noritamago86*
