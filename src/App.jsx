@@ -2,6 +2,7 @@ import { StoreProvider, useStore } from './contexts/StoreContext';
 import { Layout } from './components/Layout';
 import { Dashboard } from './components/Dashboard';
 import { TaskList } from './components/TaskList';
+import { PasswordProtection } from './components/PasswordProtection';
 
 function AppContent() {
   const { state } = useStore();
@@ -17,7 +18,9 @@ function AppContent() {
 function App() {
   return (
     <StoreProvider>
-      <AppContent />
+      <PasswordProtection>
+        <AppContent />
+      </PasswordProtection>
     </StoreProvider>
   );
 }
